@@ -16,6 +16,6 @@ Reading and cleaning the CSV files ...
   constructor_results       12625 rows inserted
 DEMO: inserting a lap time for race 999999, which does not exist ...
 ERROR -> ROLLBACK. Nothing from this load was saved.
-   ForeignKeyViolation inserci¾n o actualizaci¾n en la tabla ½lap_times╗ viola la llave forßnea ½lap_times_race_id_fkey╗
-   La llave (race_id)=(999999) no estß presente en la tabla ½races╗.
+   ForeignKeyViolation inserción o actualización en la tabla «lap_times» viola la llave foránea «lap_times_race_id_fkey»
+   La llave (race_id)=(999999) no está presente en la tabla «races».
    lap_times rows before the load: 0, after the rollback: 0
