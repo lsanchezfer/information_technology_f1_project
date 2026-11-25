@@ -1,0 +1,21 @@
+Reading and cleaning the CSV files ...
+  seasons                      75 rows inserted
+  circuits                     77 rows inserted
+  status                      139 rows inserted
+  drivers                     861 rows inserted
+  constructors                212 rows inserted
+  races                      1125 rows inserted
+  race_sessions               360 rows inserted
+  results                   26759 rows inserted
+  sprint_results              360 rows inserted
+  qualifying                10494 rows inserted
+  pit_stops                 11371 rows inserted
+  lap_times                589081 rows inserted
+  driver_standings          34863 rows inserted
+  constructor_standings     13391 rows inserted
+  constructor_results       12625 rows inserted
+DEMO: inserting a lap time for race 999999, which does not exist ...
+ERROR -> ROLLBACK. Nothing from this load was saved.
+   ForeignKeyViolation inserci¾n o actualizaci¾n en la tabla ½lap_times╗ viola la llave forßnea ½lap_times_race_id_fkey╗
+   La llave (race_id)=(999999) no estß presente en la tabla ½races╗.
+   lap_times rows before the load: 0, after the rollback: 0

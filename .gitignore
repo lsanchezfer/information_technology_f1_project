@@ -1,0 +1,16 @@
+# virtual environment
+venv/
+.venv/
+
+# local password (never upload it)
+password.txt
+
+# raw data: downloaded with scripts/download_data.py
+data/raw/*.csv
+data/raw/*.zip
+
+# Python / editor leftovers
+__pycache__/
+*.pyc
+.vscode/
+.DS_Store
